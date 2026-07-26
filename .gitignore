@@ -1,0 +1,31 @@
+# .gitignore
+
+## Ignore Haskell compiler artifacts
+
+*.hi
+*.o
+
+## Ignore IDE metadata
+
+*.hspt
+*.hsps
+*.hsc
+*.hso
+*.hsc
+*.tt
+
+## Ignore build artifacts
+
+dist/
+_dist/
+*.dist
+
+## Ignore test output
+
+tests/.hspec*
+tests/*.hspec
+
+## Ignore user configuration
+
+.scratch/
+.scratch/*
